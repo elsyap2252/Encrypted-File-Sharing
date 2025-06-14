@@ -31,9 +31,9 @@ with open('encrypted_data/key.enc', 'wb') as f:
     f.write(enc_key)
 
 # 5. Send Email with attachment
-EMAIL_SENDER = "krischtien@gmail.com"
-EMAIL_PASSWORD = "ttgwijzritjgwbnr"
-EMAIL_RECEIVER = "samsungecha557@gmail.com"
+EMAIL_SENDER = "example@gmail.com"
+EMAIL_PASSWORD = "asdfgdfsd"
+EMAIL_RECEIVER = "example2@gmail.com"
 
 msg = EmailMessage()
 msg['Subject'] = 'Encrypted File'
